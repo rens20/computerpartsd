@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico:wght@200;400;600&display=swap");
+:root{
+    --color1:#191414 ;
+    --color2:#dadddf;
+    --color3:#11b153;
+}
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+    background: var(--color2);
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .site-header { 
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+  }
+  
+  .site-header::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .site-identity {
+    float: left;
+  }
+  
+  .site-identity h1 {
+    font-size: 1.5em;
+    margin: .7em 0 .3em 0;
+    display: inline-block;
+  }
+  
+  .site-identity img {
+    max-width: 55px;
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  
+  .site-navigation {
+    float: right;
+  }
+  
+  .site-navigation ul, li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+  .center h2{
+    text-align: center;
+    margin-top: 5em;
+    font-size: 3em;
+  }
+  .center p{
+     text-align: center;
+     font-size: 2rem;
+  }
+  .center button{
+  display: block;
+  margin: 0 auto;
+  font-size:2em;
+  color: var(--color1);
+  background: var(--color2);
+  border: none;
+  }
+  .center button:hover{
+    background: var(--color3);
+  }

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+</head>
+<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.15752-9/378203311_1006721803978519_1142528083741799581_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEMR0eHFK0TfK5qVFRWy0ALAsqUQbgFOuYCypRBuAU65owxpFNOlXAGhaW7Cgs6KZ4suS1WfGf4mKG-g9DdagBf&_nc_ohc=PBB_i8JZrMYAX_D_w9N&_nc_ht=scontent.fmnl9-1.fna&oh=03_AdQSyam9L8EaTdongrME7gjF_DI6OOvctIsOnTNYYcrkGw&oe=652E7838 " type="image/x-icon">
+
+</head>
+<style>
+    body{
+        background: #dadddf;
+    }
+    .btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    margin-left: 10px;
+  }
+  </style>
+<body>
+
+  <div class="container">
+   <div class="row">
+
+
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+
+
+    <!-- FORM  -->	    
+    <div class="col-md-12">
+
+     <form class="form-horizontal" id="form-edit-client">
+      <fieldset>
+         <!-- Form Name -->
+        <legend><h4>Visitor</h4></legend>
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="client-name">Name</label>  
+          <div class="col-md-4">
+            <input id="client-name" name="client-name" type="text" placeholder="your feedback" class="form-control input-md">
+            <span class="help-block">Your message</span>  
+          </div>
+        </div>
+
+        <!-- Prepended text-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="client-email">Email</label>
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-addon">@</span>
+              <input id="client-email" name="client-email" class="form-control" placeholder="yourname@yourdomain.com" type="text">
+            </div>
+            <p class="help-block">Email of visior</p>
+          </div>
+        </div>
+        <!-- Button -->
+      </fieldset>
+    </form>
+    <div class="form-group">
+          <label class="col-md-4 control-label" for="btn-save"></label>
+          <div class="col-md-4" id="saveupdate">
+            <button id="btn-save" name="btn-save" class="btn btn-success" onclick="addClient()">Send</button>
+          </div>
+        </div>
+
+  </div> 
+  <!-- LIST -->
+  <div class=col-md-12>
+
+       <legend><h3> Visitor lists </h3></legend>
+
+     
+      <table class="table table-bordered table-condensed table-hover">
+        <thead>
+          <tr>
+            <td>Message</td>
+            <th>Email</th>
+            <th>action</th>
+          </tr>
+        </thead>
+        <tbody id="form-list-client-body">
+        </tbody>
+      </table>
+  </div>
+
+  <br> 
+
+  <!-- view -->
+  <script src="feedback.js"></script>
+</div>
+</div>
+</body>
+</html>
