@@ -74,3 +74,16 @@ body {
   .center button:hover{
     background: var(--color3);
   }
+  @media  (max-width: 720px){
+    .center h2{
+        margin-top: 3em;
+        font-size: 1.5rem;
+    }
+    .center p{
+        font-size: 1rem;
+    }
+    .center button{
+        font-size: 1.5em;
+        
+    }
+  }
