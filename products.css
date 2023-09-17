@@ -141,3 +141,11 @@ body {
     width: 0;
     transition: all 0.5s;
   }
+@media (max-width:720) {
+    p{
+        font-size:1em
+    }
+    a{
+        font-size:1em
+    }
+}
